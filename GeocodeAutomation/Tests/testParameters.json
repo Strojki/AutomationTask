@@ -1,0 +1,52 @@
+{
+  "LocationChecker" :{
+
+    "results":[ {
+        "id":"0",
+        "status": "OK"
+
+      },
+      {
+        "id":"1",
+        "status": "ZERO_RESULTS",
+        "error":"Geocoder was passed a non-existing address"
+
+      },
+      {
+        "id":"2",
+        "status": "OVER_QUERY_LIMIT",
+        "error": "You are over your quota"
+
+      },
+      {
+        "id":"3",
+        "status": "REQUEST_DENIED"
+
+      },
+      {
+        "id":"4",
+        "status": "INVALID_REQUEST",
+        "error" : "Invalid request due to missing elements address, components or latlng"
+
+      },
+      {
+        "id":"5",
+        "status":"UNKNOWN_ERROR",
+        "error":"A unknow error has occured"
+
+      }
+          ],
+
+    "testAddressData":{
+               "apiKey" : "AIzaSyBYCy_R0ZRUNLMFjGnPqUbgAQo0YE-DBBs",
+               "address" : "Zmaja od Bosne",
+               "lat":"43.8540601",
+               "lng": "18.3925673",
+               "city" : "Sarajevo",
+               "zipCode":"71000",
+               "region" : "Kanton Sarajevo"
+       }
+
+  }
+
+}
